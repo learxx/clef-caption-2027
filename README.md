@@ -1,6 +1,6 @@
 # ImageCLEFmedical Caption 2027
 
-Supplementary material for the **ImageCLEFmedical Caption 2027** task, the 11th edition of the task at [CLEF 2027](https://www.imageclef.org/2027) in Bucharest.
+Supplementary material for the **ImageCLEFmedical Caption 2027** task, the 11th edition of the task at [CLEF 2027](https://clef2027.clef-initiative.eu/) in Bucharest.
 
 The repository contains examples and evaluation and submission scripts for each subtask. Use the official task website for the full task description, the schedule, and dataset access.
 
