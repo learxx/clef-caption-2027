@@ -88,38 +88,38 @@ This is how the file structure would look like with UMLS model and submission.cs
 ```plain
 
 ├── caption_prediction
-|   ├── README.md
-│   ├── Dockerfile
-│   ├── Dockerfile.dev
-│   ├── Dockerfile.test
-│   ├── Dockerfile.test-check
-│   ├── Dockerfile.valid
-│   ├── Dockerfile.valid-check
-│   ├── create_ids_csv.py
-│   ├── data
-│   │   ├── test
-│   │   │   ├── captions.csv
-│   │   │   ├── ids.csv
-│   │   │   └── images
-│   │   ├── train
-│   │   │   └── captions.csv
-│   │   └── valid
-│   │       ├── captions.csv
-│   │       ├── ids.csv
-│   │       └── images
-│   ├── evaluator.py
-│   ├── medcat_scorer.py
-│   ├── models
-│   │   └── MedCAT
-│   │       └── umls_self_train_model_pt2ch_3760d588371755d0.zip
-│   ├── precompute_embeddings.py
-│   ├── precomputed
-│   │   ├── image_embeddings_test.npz
-│   │   └── image_embeddings_valid.npz
-│   ├── requirements.txt
-│   ├── run_evaluation.py
-│   └── submission_check.py
-
+   ├── README.md
+   ├── Dockerfile
+   ├── Dockerfile.dev
+   ├── Dockerfile.test
+   ├── Dockerfile.test-check
+   ├── Dockerfile.valid
+   ├── Dockerfile.valid-check
+   ├── create_ids_csv.py
+   ├── data
+   │   ├── test
+   │   │   ├── captions.csv
+   │   │   ├── ids.csv
+   │   │   └── images
+   │   ├── train
+   │   │   └── captions.csv
+   │   └── valid
+   │       ├── captions.csv
+   │       ├── ids.csv
+   │       └── images
+   ├── evaluator.py
+   ├── medcat_scorer.py
+   ├── models
+   │   └── MedCAT
+   │       └── umls_self_train_model_pt2ch_3760d588371755d0.zip
+   ├── precompute_embeddings.py
+   ├── precomputed
+   │   ├── image_embeddings_test.npz
+   │   └── image_embeddings_valid.npz
+   ├── requirements.txt
+   ├── run_evaluation.py
+   └── submission_check.py
+```
 
 ## Submission Format Instructions
 
