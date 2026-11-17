@@ -1,0 +1,15 @@
+numpy<2
+evaluate
+rouge-score
+bert-score
+absl-py
+medcat<2.0
+transformers==4.49
+nltk
+torch==2.1.2
+torchvision==0.16.2
+matplotlib>=3.8
+git+https://github.com/lucadiliello/bleurt-pytorch.git
+protobuf
+sentencepiece
+hf_xet
